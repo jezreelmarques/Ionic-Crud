@@ -1,14 +1,146 @@
 <ion-header>
-  <ion-toolbar>
+  <ion-toolbar color="primary">
     <ion-title>
-      Ionic Blank
+      Ionic 
     </ion-title>
   </ion-toolbar>
 </ion-header>
-
 <ion-content>
-  <div class="ion-padding">
-    The world is your oyster.
-    <p>If you get lost, the <a target="_blank" rel="noopener" href="https://ionicframework.com/docs/">docs</a> will be your guide.</p>
-  </div>
-</ion-content>
+ <ion-grid>
+   <ion-row>
+     <ion-col size='4'>
+         <ion-title >
+            <h1>
+                O que é o Ionic? 
+            </h1>
+             
+        </ion-title>
+     </ion-col>
+     <ion-col>
+        <ion-text>
+            <h3>
+            Ionic é um framework criado no final de 2013 que visa a criação de aplicações híbridas para dispositivos móveis.</h3>
+<h3>
+Ele nada mais é do que uma pilha de componentes e outros frameworks. Estes são:
+</h3>
+<h4>
+    Cordova: Integração com recursos nativos dos dispositivos
+</h4>
+<h4>
+    AngularJS: Criação da parte Web da App
+
+</h4>
+<h4>
+    Ionic Module e o Ionic CLI: Ferramentas e Componentes disponibilizados pelo framework
+</h4>
+
+        </ion-text>
+     </ion-col>
+
+</ion-row>
+<ion-row>
+     <ion-col size='4'>
+       <ion-title>
+        <h1>Rotas</h1>
+                
+                </ion-title>
+         </ion-col>     
+     <ion-col>
+     
+                <ion-text>
+                    <h3>
+                    Antes era usado o próprio Ionic NavController, mas com a v4, integrou-se ao framework o Angular Router oficial. 
+
+Para fornecer as animações específicas da plataforma às quais os usuários estão acostumados, criamos ion-router-outle tpara aplicativos angulares. Comporta-se de maneira semelhante ao Angular, com o router-outlet mas fornece uma navegação (guias) e animações baseadas em pilha.</h3>
+      
+                </ion-text>
+     </ion-col>
+   </ion-row>
+   <ion-row>
+     <ion-col size='4'>
+         <ion-title >
+            <h1>
+                Particularidades</h1>
+             
+        </ion-title>
+     </ion-col>
+     <ion-col>
+        <ion-text>
+<h4>Multiplataforma</h4>
+<h4>
+    Mais produtividade
+</h4>
+<h4>
+    Menor tempo de desenvolvimento: 
+</h4>
+<h4>Menor Custo</h4>
+<h4>Angular e TypeScript</h4>
+<h4>Prototipação</h4>
+<h4>Ferramentas</h4>
+<h4>PWA's</h4>
+<h4>Evolução</h4>
+
+        </ion-text>
+     </ion-col>
+
+</ion-row>
+<ion-row>
+     <ion-col size='4'>
+       <ion-title>
+        <h1>Requisitos</h1>
+                
+                </ion-title>
+         </ion-col>     
+     <ion-col>
+     
+                <ion-text>
+                    <h4>Git</h4>
+                    <h4>Node.Js</h4>
+                    <h4>Editoe de código-fonte</h4>
+                    <h4>Terminal da linha de comando (CLI) :</h4>
+                    <h4>-------------------------------------</h4>
+                    <h4>Instalar O Framework:</h4>
+                    <h4>npm install -g ionic cordova</h4>
+      
+                </ion-text>
+     </ion-col>
+   </ion-row>
+ <ion-row>
+      <ion-col size='4'>
+        <ion-title>
+         <h1>Iniciar e Rodar aplicação:</h1>
+                 
+                 </ion-title>
+          </ion-col>     
+      <ion-col>
+      
+                 <ion-text>
+                     <h4>ionic start photo-gallery tabs</h4>
+                     <h4>Node.Js</h4>
+                     <h4>cd photo-gallery</h4>
+                     <h4>ionic serve</h4>
+       
+                 </ion-text>
+      </ion-col>
+    </ion-row>
+    <ion-row>
+      <ion-col size='4'>
+        <ion-title>
+         <h1>Arquitetura:</h1>
+                 
+                 </ion-title>
+          </ion-col>     
+      <ion-col>
+        <ion-img src="https://image.slidesharecdn.com/ioniclabs-170726223954/95/ionic-labs-22-638.jpg?cb=1501161606"></ion-img>
+      </ion-col>
+    </ion-row>
+ </ion-grid>
+
+ 
+ <ion-fab vertical="bottom" horizontal="end" slot="fixed">
+    <ion-fab-button routerLink="/todo-view" routerDirection="forward">
+      <ion-icon name="ios-create"></ion-icon>
+    </ion-fab-button>
+  </ion-fab>
+
+ </ion-content>
